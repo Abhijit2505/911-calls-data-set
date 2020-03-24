@@ -1,0 +1,28 @@
+The data set has following inputs,
+
+1 - Area Parameters - 
+      i) lat -> latitude - string type
+     ii) lng -> longitude - string type
+    iii) zip -> zipcode - string type
+     iv) twp -> township - string type
+      v) addr -> address - string type
+      
+2 - Reason Parameters - 
+      i) desc -> description - string type
+     ii) title -> title of the problem - string type
+   
+3 - Time and Date Parameter -
+      i) time_stamp -> YYYY-MM-DD HH:MM:SS formated date and time - string type
+
+Along with this we are getting a dummy Parameter 'e' whose value is always 1 in the data set.
+
+I have analysed the data for the following output,
+
+1 - Analysing and visualising how many calls received from the townships on a particular date.
+2 - Plotting a regression line and analysing the relation between number of calls from towns with respect to the month.
+3 - On some day and a particular hour, what's the cluster of reason to call ? 
+4 - Relatively analysing the categories of the reasons with the Date of call.
+5 - Relatively analysing the categories of the reason with the Month of call.
+6 - Relatively analysing the categories of the reason with the Day of the week on which the call was made.
+
+Lets jump right - into the code ->>
